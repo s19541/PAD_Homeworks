@@ -18,7 +18,7 @@ class Cat(Animal):
     genus = "Felis"
 
     def __init__(self, gender):
-        super(Cat, self).__init__(gender)
+        super().__init__(gender)
 
     def purr(self):
         return "purr purr"
@@ -27,7 +27,7 @@ class Dog(Animal):
     genus = "Canis"
 
     def __init__(self, gender):
-        super(Dog, self).__init__(gender)
+        super().__init__(gender)
     
     def woof(self):
         return "woof woof"
