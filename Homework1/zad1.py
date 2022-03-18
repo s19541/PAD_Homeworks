@@ -1,4 +1,5 @@
 from enum import Enum
+
 class Gender(Enum):
     MALE = "Male"
     FEMALE = "Female"
@@ -11,8 +12,11 @@ class Animal:
         self.gender = gender
 
     def breed(self, partner):
-        if self.gender == Gender.FEMALE and partner.gender == Gender.MALE and type(self) == type(partner):
-            return type(self)(self.gender)
+        try:
+            if self.gender == Gender.FEMALE and partner.gender == Gender.MALE and type(self) == type(partner):
+                return type(self)(self.gender)
+        except AttributeError as err: 
+            print("Attribute not found")
 
 class Cat(Animal): 
     genus = "Felis"
@@ -32,6 +36,7 @@ class Dog(Animal):
     def woof(self):
         return "woof woof"
 
+# Test
 cat1 = Cat(Gender.FEMALE)
 cat2 = Cat(Gender.MALE)
 dog1 = Dog(Gender.FEMALE)

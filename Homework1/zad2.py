@@ -35,7 +35,6 @@ def calc_avg_salary(workers):
 print(calc_avg_salary(workers))
 
 # Porównanie zarobków osób młodzszych niż 30 lat i starszych
-
 younger_workers = []
 older_workers = []
 
