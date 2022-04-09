@@ -31,13 +31,9 @@ Gdzie A i B to wektory reprezentujące kolejne kolumny.
 
 Aby stworzyć macierz podobieństwa w oparciu o macierz z pliku.
 
-WSKAZÓWKA: ![Table
+WSKAZÓWKA: ![](Aspose.Words.ec283be4-7fac-48c9-9e76-e901588fa12a.002.png)
 
-Description automatically generated](Aspose.Words.ec283be4-7fac-48c9-9e76-e901588fa12a.002.png)
-
-![A picture containing diagram
-
-Description automatically generated](Aspose.Words.ec283be4-7fac-48c9-9e76-e901588fa12a.003.png)
+![](Aspose.Words.ec283be4-7fac-48c9-9e76-e901588fa12a.003.png)
 
 **Zadanie 4\* (Nieobowiązkowe – 3 punkty dodatkowe)** 
 
